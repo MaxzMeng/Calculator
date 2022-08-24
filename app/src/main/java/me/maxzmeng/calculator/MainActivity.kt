@@ -64,10 +64,11 @@ class MainActivity : ComponentActivity() {
         Column(Modifier.fillMaxSize()) {
             CalculatorTextPanel(
                 text = viewModel.displayText,
-                fontSize = if (isLandscape) 32.sp else 64.sp,
+                fontSize = if (isLandscape) 42.sp else 64.sp,
                 modifier = Modifier
                     .weight(1F)
                     .fillMaxWidth()
+                    .padding(if (isLandscape) 4.dp else 8.dp)
             )
             CalculatorButtonsPanel(
                 column = if (isLandscape) 10 else 4,
