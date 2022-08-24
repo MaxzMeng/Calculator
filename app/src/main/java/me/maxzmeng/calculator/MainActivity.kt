@@ -128,8 +128,8 @@ class MainActivity : ComponentActivity() {
                     pressedColor = it.second.pressedColor,
                     selectedColor = it.second.selectedColor,
                     modifier = Modifier
-                        .padding(buttonsPadding)
                         .aspectRatio(aspectRatio * it.second.weight)
+                        .padding(buttonsPadding)
                         .clip(CircleShape)
                 ) {
                     Text(
