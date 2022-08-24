@@ -2,9 +2,9 @@
 
 ### 效果展示
 
-![竖屏](./images/portrait.png)
+<img src="./images/portrait.png" alt="竖屏" style="zoom:50%;" />
 
-![横屏](./images/landscape.png)
+<img src="./images/landscape.png" alt="横屏" style="zoom:50%;" />
 
-![横屏](./images/show.gif)
+<img src="./images/show.gif" alt="演示" style="zoom:50%;" />
 
